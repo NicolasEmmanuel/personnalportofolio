@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 :root{
-    --main-color:#0075f3;
+    --main-color:#0f4888;
 }
 
 *{
@@ -21,8 +21,8 @@ html{
 }
 
 body{
-    background: #222e38;
-    padding-left: 30rem; 
+    background: #a9d8ff;
+    padding-right: 20rem; 
 }
 
 section{
@@ -60,15 +60,15 @@ section{
 
 header{
     position: fixed;
-    top:0; left:0; bottom:0;
-    background:#222;
+    top:0; right:0; bottom:0;
+    background:rgb(101, 174, 243);
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
     flex-flow: column;
-    padding:8rem 2rem;
-    width:30rem;
+    padding:6rem 2rem;
+    width:20rem;
     text-align: center;
 }
 
@@ -226,12 +226,12 @@ header .follow a:hover{
 }
 
 .about .row-1 .content h3{
-    color: #333;
+    color: #0f4888;
     font-size: 3.5rem;
 }
 
 .about .row-1 .content p{
-    color: #666;
+    color: rgb(253, 253, 253);
     font-size: 1.7rem;
     padding:.5rem 0;
 }
@@ -334,7 +334,8 @@ header .follow a:hover{
 }
 
 .service .box-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     gap:1.5rem;
 }
@@ -371,8 +372,10 @@ header .follow a:hover{
 }
 
 .experience .box-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
+    
 }
 
 .experience .box-container .box{
@@ -421,7 +424,8 @@ header .follow a:hover{
 }    
 
 .portfolio .box-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     gap:1.5rem;
 }
@@ -568,7 +572,7 @@ header .follow a:hover{
     resize: none;
 }
 
-.contact .row form form .btn{
+.contact .row form .btn{
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
