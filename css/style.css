@@ -22,7 +22,7 @@ html{
 
 body{
     background: #a9d8ff;
-    padding-right: 20rem; 
+    padding-left: 20rem; 
 }
 
 section{
@@ -60,7 +60,7 @@ section{
 
 header{
     position: fixed;
-    top:0; right:0; bottom:0;
+    top:0; left:0; bottom:0;
     background:rgb(101, 174, 243);
     display: flex;
     align-items: center;
@@ -360,13 +360,13 @@ header .follow a:hover{
 }
 
 .service .box-container .box h3{
-    color: #444;
+    color: rgb(3, 12, 129);
     font-size: 2.2rem;
     padding-top: 1rem;
 }
 
 .service .box-container .box p{
-    color: #666;
+    color: rgb(8, 8, 8);
     font-size: 1.7rem;
     padding-top: .5rem;
 }
